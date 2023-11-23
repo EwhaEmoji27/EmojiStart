@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji_Team27_demo</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #B5BEF5;
+        }
+
+        #loginContainer {
+            background-color: #FFFFFF;
+            padding: 20px; 
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        #loginMessage {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        div {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        label {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="loginContainer">
+        <div id="loginMessage">
+            <p>Login to your account:</p>
+        </div>
+        <div>
+            <label for="id">ID:</label>
+            <input type="text" id="id" name="id">
+        </div>
+        <div>
+            <label for="pw">PW:</label>
+            <input type="password" id="pw" name="pw">
+        </div>
+        <button onclick="submitForm()">Submit</button>
+    </div>
+
+    <script>
+        function submitForm() {
+            // 여기에 폼을 전송하는 로직 추가
+            // 서버에 데이터 전송
+        }
+    </script>
+</body>
+</html>
